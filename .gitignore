@@ -366,3 +366,8 @@ MigrationBackup/
 
 # Mac-specific
 .DS_Store
+
+# Kaleb added
+lessons/4-ComputerVision/07-ConvNets/lab/petfaces
+lessons/4-ComputerVision/07-ConvNets/lab/safe-keeping
+lessons/4-ComputerVision/07-ConvNets/data/
