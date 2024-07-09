@@ -31,6 +31,7 @@ def encode(x,voc=None,unk=0,tokenizer=tokenizer):
         stoi = stoi_hash[v]
     else:
         stoi = v.get_stoi()
+        # soit = v.get_itos()
         stoi_hash[v]=stoi        
     return [stoi.get(s,unk) for s in tokenizer(x)]
 
